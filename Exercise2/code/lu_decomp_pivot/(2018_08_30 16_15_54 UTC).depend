@@ -1,0 +1,2 @@
+lu_decomp.o: lu_decomp.c lu_decomp.h lin_struct.h
+main.o: main.c lin_struct.h lu_decomp.h

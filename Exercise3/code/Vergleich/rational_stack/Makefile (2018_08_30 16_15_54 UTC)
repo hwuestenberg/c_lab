@@ -1,0 +1,5 @@
+CFLAGS=-g -Wall -Wextra -std=c11 -pedantic
+rational_stack_test: rational_stack.o rational.o
+rational_stack.o   : rational_stack.h rational.h
+clean:
+	rm -f *.o rational_stack_test

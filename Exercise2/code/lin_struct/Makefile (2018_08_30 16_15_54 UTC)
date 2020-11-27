@@ -1,0 +1,69 @@
+# -------------------------------------------------
+# author:	Philipp Donn
+# date:		24/04/2018
+#
+# useful explanations: http://www.ijon.de/comp/tutorials/makefile.html
+# -------------------------------------------------
+
+# compiler flags
+CFLAGS=-g -Wall -Wextra -pedantic
+
+# compiler
+CC=gcc
+
+# libs
+LDLIBS=
+
+# final project name, thus, build target
+PROG = lin_struct
+
+# phony targets
+.PHONY: all clean dep lib
+
+# all source files
+SRC = $(shell find -wholename '*.c')
+
+# all object files
+OBJ = $(SRC:%.c=%.o)
+
+# file for dependencies
+DEPENDFILE=.depend
+
+# overall built target
+# first create dependencies than proceed with main target
+all: $(PROG)
+
+# link the final project
+$(PROG): $(OBJ)
+# gcc compiles everything with "-c", thus, linking the final project does not
+# work without defining the compile statement explicitly --> can maybe resolved somehow?
+# $@ means sort here --> content of PROG
+	$(CC) $(CFLAGS) $(OBJ) -o $@  $(LDLIBS)  
+	
+# create dependencies for each object file
+# use preprocessor to read include statements 
+dep: $(SRC)
+	$(CC) -MM $(SRC) > $(DEPENDFILE)
+	
+-include $(DEPENDFILE)
+
+# how to compile object files
+%.o: %.c
+	$(CC) $(CFLAGS) -c $<	
+
+lib: liblin_struct.a
+
+liblin_struct.a: lin_struct.o
+
+%.a:
+	$(AR) sr $@ $< 
+
+# clean
+clean:
+	rm -f $(OBJ) $(DEPENDFILE) liblin_struct.a
+cleaner: clean	
+	rm -f $(PROG)
+
+# completely remake the programme
+remake: cleaner dep all
+

@@ -1,0 +1,317 @@
+# depslib dependency file v1.0
+1526136418 source:/home/phil/Documents/Assignment_5/DSM/edge_cost.c
+	"edge_cost.h"
+
+1415917779 /home/phil/Documents/Assignment_5/DSM/edge_cost.h
+	"struct.h"
+	<float.h>
+
+1415917779 /home/phil/Documents/Assignment_5/DSM/struct.h
+
+1527357547 source:/home/phil/Documents/Assignment_5/DSM/help.c
+	"help.h"
+
+1415917779 /home/phil/Documents/Assignment_5/DSM/help.h
+	<stdio.h>
+
+1527409488 source:/home/phil/Documents/Assignment_5/DSM/interpret.c
+	"interpret.h"
+	<assert.h>
+
+1527349504 /home/phil/Documents/Assignment_5/DSM/interpret.h
+	<stdio.h>
+	"struct.h"
+	"expressiontype.h"
+	"help.h"
+	"print_edge.h"
+
+1527408812 /home/phil/Documents/Assignment_5/DSM/expressiontype.h
+
+1527356003 /home/phil/Documents/Assignment_5/DSM/print_edge.h
+	<stdio.h>
+	"struct.h"
+
+1526208973 /home/phil/Documents/Assignment_5/DSM/int_list.h
+
+1527358770 source:/home/phil/Documents/Assignment_5/DSM/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"struct.h"
+	"expressiontype.h"
+	"readline.h"
+	"interpret.h"
+	"matrix_assebly.h"
+	"linops.h"
+
+1415917779 /home/phil/Documents/Assignment_5/DSM/readline.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"struct.h"
+	"expressiontype.h"
+
+1527356018 source:/home/phil/Documents/Assignment_5/DSM/print_edge.c
+	"print_edge.h"
+
+1527357338 source:/home/phil/Documents/Assignment_5/DSM/readline.c
+	"readline.h"
+
+1527350691 source:/home/phil/Documents/Assignment_5/DSM/matrix_assembly.c
+	"struct.h"
+	"matrix_assebly.h"
+	"linops.h"
+	<stdlib.h>
+
+1527350709 /home/phil/Documents/Assignment_5/DSM/matrix_assebly.h
+	"struct.h"
+	"linops.h"
+
+1527339642 /home/phil/Documents/Assignment_5/DSM/linops.h
+
+1527350346 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/DFS/help.c
+	"help.h"
+
+1415910578 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/DFS/help.h
+	<stdio.h>
+
+1527613251 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/DFS/interpret.c
+	"interpret.h"
+	<assert.h>
+	"dfs.h"
+
+1527342304 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/DFS/interpret.h
+	<stdio.h>
+	"struct.h"
+	"expressiontype.h"
+	"help.h"
+	"print_edge.h"
+
+1527615658 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/DFS/struct.h
+
+1527613126 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/DFS/expressiontype.h
+
+1527348802 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/DFS/print_edge.h
+	<stdio.h>
+	"struct.h"
+
+1527616777 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/DFS/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"struct.h"
+	"expressiontype.h"
+	"readline.h"
+	"interpret.h"
+	"linops.h"
+	"help.h"
+	"dfs.h"
+
+1415910578 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/DFS/readline.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"struct.h"
+	"expressiontype.h"
+
+1527343508 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/DFS/matrix_assembly.h
+	"struct.h"
+	"linops.h"
+
+1527332442 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/DFS/linops.h
+
+1527402512 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/DFS/matrix_assembly.c
+	"struct.h"
+	"matrix_assembly.h"
+	"linops.h"
+	<stdlib.h>
+
+1527348818 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/DFS/print_edge.c
+	"print_edge.h"
+
+1527613152 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/DFS/readline.c
+	"readline.h"
+
+1527616645 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/DFS/dfs.c
+	"dfs.h"
+	"struct.h"
+	<stdlib.h>
+
+1527613247 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/DFS/dfs.h
+	"struct.h"
+
+1527350346 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Masche/help.c
+	"help.h"
+
+1415910578 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Masche/help.h
+	<stdio.h>
+
+1527674122 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Masche/interpret.c
+	"interpret.h"
+	<assert.h>
+	"dfs.h"
+
+1527342304 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Masche/interpret.h
+	<stdio.h>
+	"struct.h"
+	"expressiontype.h"
+	"help.h"
+	"print_edge.h"
+
+1527674062 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Masche/struct.h
+
+1527613126 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Masche/expressiontype.h
+
+1527348802 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Masche/print_edge.h
+	<stdio.h>
+	"struct.h"
+
+1527670188 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Masche/dfs.h
+	"struct.h"
+	<stdio.h>
+
+1527685449 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Masche/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"struct.h"
+	"expressiontype.h"
+	"readline.h"
+	"interpret.h"
+	"linops.h"
+	"help.h"
+	"dfs.h"
+	"cycle.h"
+
+1415910578 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Masche/readline.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"struct.h"
+	"expressiontype.h"
+
+1527332442 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Masche/linops.h
+
+1527348818 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Masche/print_edge.c
+	"print_edge.h"
+
+1527613152 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Masche/readline.c
+	"readline.h"
+
+1527684870 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Masche/dfs.c
+	"dfs.h"
+	"struct.h"
+	<stdio.h>
+
+1527685925 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Masche/cycle.c
+	"cycle.h"
+	"struct.h"
+	<stdlib.h>
+	<stdio.h>
+
+1527685937 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Masche/cycle.h
+	"struct.h"
+	<stdio.h>
+
+1527685925 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Task_3/cycle.c
+	"cycle.h"
+	"struct.h"
+	<stdlib.h>
+	<stdio.h>
+
+1527685937 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Task_3/cycle.h
+	"struct.h"
+	<stdio.h>
+
+1527674062 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Task_3/struct.h
+
+1527686067 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Task_3/dfs.c
+	"dfs.h"
+	"struct.h"
+	<stdio.h>
+
+1527670188 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Task_3/dfs.h
+	"struct.h"
+	<stdio.h>
+
+1527350346 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Task_3/help.c
+	"help.h"
+
+1415910578 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Task_3/help.h
+	<stdio.h>
+
+1527674122 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Task_3/interpret.c
+	"interpret.h"
+	<assert.h>
+	"dfs.h"
+
+1527342304 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Task_3/interpret.h
+	<stdio.h>
+	"struct.h"
+	"expressiontype.h"
+	"help.h"
+	"print_edge.h"
+
+1527613126 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Task_3/expressiontype.h
+
+1527348802 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Task_3/print_edge.h
+	<stdio.h>
+	"struct.h"
+
+1527348818 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Task_3/print_edge.c
+	"print_edge.h"
+
+1527613152 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Task_3/readline.c
+	"readline.h"
+
+1415910578 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Task_3/readline.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"struct.h"
+	"expressiontype.h"
+
+1527699460 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Task_3/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"struct.h"
+	"expressiontype.h"
+	"readline.h"
+	"interpret.h"
+	"linops.h"
+	"help.h"
+	"dfs.h"
+	"cycle.h"
+	"matrix_assembly.h"
+	"mesh_analysis.h"
+
+1527698406 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Task_3/linops.h
+
+1527696065 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Task_3/matrix_assembly.h
+	"struct.h"
+	"linops.h"
+	<stdio.h>
+
+1527696175 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Task_3/matrix_assembly.c
+	"matrix_assembly.h"
+	"linops.h"
+	<stdlib.h>
+	"struct.h"
+
+1527702791 source:/media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Task_3/mesh_analysis.c
+	"mesh_analysis.h"
+	"matrix_assembly.h"
+	"dfs.h"
+	"struct.h"
+	"cycle.h"
+	<stdlib.h>
+
+1527696967 /media/phil/MyDocs/Studium/Master_CSE/Intermediate_Programming_Lab/Assignment_6/Task_3/mesh_analysis.h
+	"struct.h"
+	"linops.h"
+

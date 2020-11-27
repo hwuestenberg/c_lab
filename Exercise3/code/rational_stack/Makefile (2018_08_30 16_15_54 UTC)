@@ -1,0 +1,4 @@
+CFLAGS=-g -Wall
+rational_stack.o   : rational_stack.h
+clean:
+	rm -f *.o

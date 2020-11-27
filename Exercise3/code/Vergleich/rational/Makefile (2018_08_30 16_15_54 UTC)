@@ -1,0 +1,8 @@
+CFLAGS=-Wall
+
+rational_test: rational.o 
+rational.o:    rational.h
+
+clean:
+	rm -f *.o rational_test
+

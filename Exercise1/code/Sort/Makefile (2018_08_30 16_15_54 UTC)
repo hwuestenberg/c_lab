@@ -1,0 +1,41 @@
+# phony targets
+.PHONY: clean clean_target clean_all
+
+# compiler flags
+CFLAGS=-g -Wall -W -pedantic
+
+# compiler
+CC=gcc
+
+# all object files
+OBJS=main.o io.o sort.o
+
+# libs
+LDLIBS=-L. -lstopwatch
+
+# final project name, thus, final build target
+PROG=sort
+
+# overall built target
+all: $(PROG)
+
+# link the final project
+$(PROG):	$(OBJS)
+# gcc compiles everything with "-c", thus, linking the final project does not
+# work without defining the compile statement explicitly --> can maybe resolved somehow?
+# $@ means sort here --> content of PROG
+	$(CC) $(CFLAGS) $(OBJS) -o $@  $(LDLIBS)  
+	
+
+# compile all needed files taking into account all their dependencies
+main.o:		io.h sort.h # sort.o io.o
+io.o:		io.h
+sort.o:		sort.h
+
+# some clean options
+clean_target:
+	rm $(PROG)
+clean_all:
+	rm $(OBJS) $(PROG)
+clean:	
+	rm $(OBJS)

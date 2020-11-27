@@ -1,0 +1,5 @@
+CFLAGS=-g -Wall
+double_stack_test: double_stack.o
+double_stack.o   : double_stack.h
+clean:
+	rm -f *.o double_stack_test

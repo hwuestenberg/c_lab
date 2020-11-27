@@ -1,0 +1,11 @@
+CFLAGS=-g
+
+calc           : getop.o charbuf.o calc.o pop2ops.o rational_stack.o rational.o
+calc.o         : calc.c calc.h rational_stack.o
+rational_stack.o : rational_stack.c rational_stack.h
+rational.o:	rational.h rational.c
+
+clean:
+	rm -f *.o
+clean_all:
+	rm -f *.o calc

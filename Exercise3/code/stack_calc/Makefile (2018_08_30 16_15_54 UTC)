@@ -1,0 +1,13 @@
+CFLAGS=-g
+
+calc           : getop.o charbuf.o calc.o pop2ops.o double_stack.o 
+calc.o         : calc.c calc.h double_stack.h
+double_stack.o : double_stack.c double_stack.h
+
+double_stack.c :
+	@echo "*** ERROR: $@ not found, please copy your solution to the current directory ***";exit -1
+double_stack.h :
+	@echo "*** ERROR: $@ not found, please copy your solution to the current directory ***";exit -1
+
+clean:
+	rm -f calc stack.o getop.o charbuf.o calc.o pop2ops.o double_stack.o
