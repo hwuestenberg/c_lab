@@ -1,10 +1,11 @@
 # c_lab
 
-Lab on C-coding
+Lab on C/C++ programming
 
 Tasks on:
 - Sort algorithms
+- Solver for linear systems of equations
 - LU-decomposition
-- Data structures and Reverse Polish Notation
+- Dynamic data structures
 - Floyd-Warshall algorithm for navigation/shortest path
 - Graph networks for circuits
